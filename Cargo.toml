@@ -1,0 +1,9 @@
+[package]
+name = "RustPractise"
+version = "0.1.0"
+edition = "2021"
+
+[[example]]
+name = "arc_demo"
+path = "examples/arc_demo/main.rs"
+
