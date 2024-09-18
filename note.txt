@@ -1,0 +1,8 @@
+1. A::funcA() 这种的话就叫做关联函数，类似静态函数的说法，如果是绑定实例的话 就是方法了
+io::stdin().read_line(...) ->这边的话stdin()就是关联函数，然后readline 就是方法
+    pub fn stdin() -> Stdin
+    pub fn read_line(&self, buf: &mut String) -> io::Result<usize>
+    其实从函数原型上也可以看出来，有self的话 就类似与this指针一样的，就是方法
+
+
+

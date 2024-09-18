@@ -3,7 +3,47 @@ name = "RustPractise"
 version = "0.1.0"
 edition = "2021"
 
-[[example]]
+[dependencies]
+rand = "0.3.14"
+
+[[bin]]
 name = "arc_demo"
 path = "examples/arc_demo/main.rs"
+
+[[bin]]
+name = "basic_io"
+path = "examples/basic/basic_io.rs"
+
+[[bin]]
+name = "basic_types"
+path = "examples/basic/basic_types.rs"
+
+[[bin]]
+name = "basic_func"
+path = "examples/basic/basic_func.rs"
+
+[[bin]]
+name = "basic_ownership"
+path = "examples/basic/basic_ownership.rs"
+
+[[bin]]
+name = "basic_slice"
+path = "examples/basic/basic_slice.rs"
+
+[[bin]]
+name = "basic_struct"
+path = "examples/basic/basic_struct.rs"
+
+[[bin]]
+name = "basic_enum"
+path = "examples/basic/basic_enum.rs"
+
+[[bin]]
+name = "basic_option"
+path = "examples/basic/basic_option.rs"
+
+[[bin]]
+name = "basic_match"
+path = "examples/basic/basic_match.rs"
+
 
