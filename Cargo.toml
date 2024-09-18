@@ -46,4 +46,11 @@ path = "examples/basic/basic_option.rs"
 name = "basic_match"
 path = "examples/basic/basic_match.rs"
 
+[[bin]]
+name = "stl_vector"
+path = "examples/stl/stl_vector.rs"
+
+[[bin]]
+name = "stl_string"
+path = "examples/stl/stl_string.rs"
 
