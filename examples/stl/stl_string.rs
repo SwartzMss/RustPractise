@@ -35,13 +35,32 @@ fn main(){
 
 
     let s4 = String::from("111 ");
-    let s5 = String::from("222 ");
+    let s5 = String::from("asasa ");
     let s6 = String::from("333 ");
     // 后面的参数都得是引用
     let s7 = s4 + &s5 + &s6;
-    // println!("s4 = {}", s4); s4的所有权已经被拿走了
+     
     println!("s5 = {}", s5);
     println!("s6 = {}", s6);
     println!("s7 = {}", s7);
+
+    // 还是推荐这种
+    let s = format!("{} {} {}",s7,s5,s6);
+    println!("s = {}",s);
+    
+    // String是不支持索引访问的
+    // let ss = s[0];
+
+    let len = s.len();
+    println!("len = {}",len);
+
+    // bytes() 返回一个字节迭代器
+    for b in s.bytes(){
+        println!("b = {}", b);
+    }
+    // 也是迭代器chars() 迭代的是字符而不是字节
+    for b in s.chars(){
+        println!("b = {}", b);
+    }
 
 }
