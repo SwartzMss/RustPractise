@@ -54,7 +54,15 @@ path = "examples/stl/stl_vector.rs"
 name = "stl_string"
 path = "examples/stl/stl_string.rs"
 
-
 [[bin]]
 name = "stl_hashmap"
 path = "examples/stl/stl_hashmap.rs"
+
+[[bin]]
+name = "template_1"
+path = "examples/template/template_1.rs"
+
+
+[[bin]]
+name = "template_2"
+path = "examples/template/template_2.rs"
