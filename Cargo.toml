@@ -66,3 +66,31 @@ path = "examples/template/template_1.rs"
 [[bin]]
 name = "template_2"
 path = "examples/template/template_2.rs"
+
+[[bin]]
+name = "trait_1"
+path = "examples/trait/trait_1.rs"
+
+[[bin]]
+name = "trait_2"
+path = "examples/trait/trait_2.rs"
+
+[[bin]]
+name = "lifetime_1"
+path = "examples/lifetime/lifetime_1.rs"
+
+[[bin]]
+name = "lifetime_2"
+path = "examples/lifetime/lifetime_2.rs"
+
+[[bin]]
+name = "closures_1"
+path = "examples/closures/closures_1.rs"
+
+[[bin]]
+name = "closures_2"
+path = "examples/closures/closures_2.rs"
+
+[[bin]]
+name = "closures_3"
+path = "examples/closures/closures_3.rs"
