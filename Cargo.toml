@@ -94,3 +94,16 @@ path = "examples/closures/closures_2.rs"
 [[bin]]
 name = "closures_3"
 path = "examples/closures/closures_3.rs"
+
+[[bin]]
+name = "iterator_1"
+path = "examples/iterator/iterator_1.rs"
+
+[[bin]]
+name = "iterator_2"
+path = "examples/iterator/iterator_2.rs"
+
+[[bin]]
+name = "iterator_3"
+path = "examples/iterator/iterator_3.rs"
+
