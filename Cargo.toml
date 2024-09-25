@@ -107,3 +107,10 @@ path = "examples/iterator/iterator_2.rs"
 name = "iterator_3"
 path = "examples/iterator/iterator_3.rs"
 
+[[bin]]
+name = "deref_1"
+path = "examples/deref/deref_1.rs"
+
+[[bin]]
+name = "deref_2"
+path = "examples/deref/deref_2.rs"
