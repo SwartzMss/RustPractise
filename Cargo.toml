@@ -114,3 +114,20 @@ path = "examples/deref/deref_1.rs"
 [[bin]]
 name = "deref_2"
 path = "examples/deref/deref_2.rs"
+
+[[bin]]
+name = "rc_1"
+path = "examples/reference_count/rc_1.rs"
+
+[[bin]]
+name = "refcell_1"
+path = "examples/reference_count/refcell_1.rs"
+
+[[bin]]
+name = "thread_1"
+path = "examples/thread/thread_1.rs"
+
+
+[[bin]]
+name = "thread_2"
+path = "examples/thread/thread_2.rs"
