@@ -131,3 +131,7 @@ path = "examples/thread/thread_1.rs"
 [[bin]]
 name = "thread_2"
 path = "examples/thread/thread_2.rs"
+
+[[bin]]
+name = "thread_3"
+path = "examples/thread/thread_3.rs"
