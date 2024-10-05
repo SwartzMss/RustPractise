@@ -5,133 +5,142 @@ edition = "2021"
 
 [dependencies]
 rand = "0.3.14"
+tokio = { version = "1", features = ["full"] }
+protobuf = { version = "3.1", features = ["with-bytes"] }
 
-[[bin]]
+[build-dependencies]
+protobuf-codegen = { version = "3.1" }
+
+[[example]]
 name = "arc_demo"
 path = "examples/arc_demo/main.rs"
 
-[[bin]]
+[[example]]
 name = "basic_io"
 path = "examples/basic/basic_io.rs"
 
-[[bin]]
+[[example]]
 name = "basic_types"
 path = "examples/basic/basic_types.rs"
 
-[[bin]]
+[[example]]
 name = "basic_func"
 path = "examples/basic/basic_func.rs"
 
-[[bin]]
+[[example]]
 name = "basic_ownership"
 path = "examples/basic/basic_ownership.rs"
 
-[[bin]]
+[[example]]
 name = "basic_slice"
 path = "examples/basic/basic_slice.rs"
 
-[[bin]]
+[[example]]
 name = "basic_struct"
 path = "examples/basic/basic_struct.rs"
 
-[[bin]]
+[[example]]
 name = "basic_enum"
 path = "examples/basic/basic_enum.rs"
 
-[[bin]]
+[[example]]
 name = "basic_option"
 path = "examples/basic/basic_option.rs"
 
-[[bin]]
+[[example]]
 name = "basic_match"
 path = "examples/basic/basic_match.rs"
 
-[[bin]]
+[[example]]
 name = "stl_vector"
 path = "examples/stl/stl_vector.rs"
 
-[[bin]]
+[[example]]
 name = "stl_string"
 path = "examples/stl/stl_string.rs"
 
-[[bin]]
+[[example]]
 name = "stl_hashmap"
 path = "examples/stl/stl_hashmap.rs"
 
-[[bin]]
+[[example]]
 name = "template_1"
 path = "examples/template/template_1.rs"
 
 
-[[bin]]
+[[example]]
 name = "template_2"
 path = "examples/template/template_2.rs"
 
-[[bin]]
+[[example]]
 name = "trait_1"
 path = "examples/trait/trait_1.rs"
 
-[[bin]]
+[[example]]
 name = "trait_2"
 path = "examples/trait/trait_2.rs"
 
-[[bin]]
+[[example]]
 name = "lifetime_1"
 path = "examples/lifetime/lifetime_1.rs"
 
-[[bin]]
+[[example]]
 name = "lifetime_2"
 path = "examples/lifetime/lifetime_2.rs"
 
-[[bin]]
+[[example]]
 name = "closures_1"
 path = "examples/closures/closures_1.rs"
 
-[[bin]]
+[[example]]
 name = "closures_2"
 path = "examples/closures/closures_2.rs"
 
-[[bin]]
+[[example]]
 name = "closures_3"
 path = "examples/closures/closures_3.rs"
 
-[[bin]]
+[[example]]
 name = "iterator_1"
 path = "examples/iterator/iterator_1.rs"
 
-[[bin]]
+[[example]]
 name = "iterator_2"
 path = "examples/iterator/iterator_2.rs"
 
-[[bin]]
+[[example]]
 name = "iterator_3"
 path = "examples/iterator/iterator_3.rs"
 
-[[bin]]
+[[example]]
 name = "deref_1"
 path = "examples/deref/deref_1.rs"
 
-[[bin]]
+[[example]]
 name = "deref_2"
 path = "examples/deref/deref_2.rs"
 
-[[bin]]
+[[example]]
 name = "rc_1"
 path = "examples/reference_count/rc_1.rs"
 
-[[bin]]
+[[example]]
 name = "refcell_1"
 path = "examples/reference_count/refcell_1.rs"
 
-[[bin]]
+[[example]]
 name = "thread_1"
 path = "examples/thread/thread_1.rs"
 
 
-[[bin]]
+[[example]]
 name = "thread_2"
 path = "examples/thread/thread_2.rs"
 
-[[bin]]
+[[example]]
 name = "thread_3"
 path = "examples/thread/thread_3.rs"
+
+[[bin]]
+name = "proto_demo"
+path = "bin/proto_demo/main.rs"
